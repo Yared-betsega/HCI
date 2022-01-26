@@ -1,9 +1,51 @@
 body{
     color: #000080;
+    background-color: #faf9f9;
+    
+}
+nav{
+  background-color: white !important;
+  height: 22vh;
+  padding: 22% 4%;
+}
+.logo{
+  width: 16%;
+}
+main{
+  margin-top: 22vh;
 }
 b, p,a, font{
   color: #000080;
   font-size: 1em;
 }
-a{text-decoration: none;}
+a{
+  text-decoration: none;
+}
+.card{
+  background-color: white;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.20) !important;
+  height: 66vh;
+  position: relative;
+}
+.card:hover{
+  transition: 0.4s;
+  transform: scale3d(1.06, 1.06, 0.3);
+}
+.card-img{
+  height: 55%;
+  margin-top: 5%;
+}
+.visit{
+  position: absolute;
+  bottom: 0px;
+  left: 25%;
+  width: 40%;
+  
+}
+.btn{
+  margin: 4%;
+}
+.accordion-button{
+  background-color: rgb(226, 243, 242);
+}
 
